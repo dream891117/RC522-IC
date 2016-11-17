@@ -1,6 +1,5 @@
 package com.genie.util;
 
-
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.sql.Date;
@@ -9,6 +8,14 @@ import java.sql.Timestamp;
 import java.sql.Types;
 
 
+/**
+ * 
+ * 字节转换工具类
+ * 
+ * @author Genie
+ * @version 1.0 (2016.11.17)
+ *
+ */
 public class Convert
 {
 	public static Object String2Object(String strValue,int type)

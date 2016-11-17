@@ -3,17 +3,14 @@ package com.genie.service;
 import com.genie.model.RaspRC522;
 import com.genie.util.Convert;
 
+
 /**
  * Created by Liang on 2016/3/13.
  */
-
-
-
-
-public class WiringPiSPIExample
-{
-    public static void main(String args[]) throws InterruptedException
-    {
+public class WiringPiSPIExample{
+	
+    public static void main(String args[]) throws InterruptedException {
+    	
         RaspRC522 rc522=new RaspRC522();
         int back_length [] = new int[1];	//返回的数据
         byte tagid [] = new byte[5];	

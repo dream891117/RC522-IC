@@ -9,7 +9,7 @@ import com.pi4j.wiringpi.Spi;
  * - Created by Liang on 2016/3/17 , originated from  Python RC522
  * 
  * @version 1.1 (2016.11.2) - Genie
- * -  根据对RC522的了解,对当前代码做出一定的解释
+ * -  根据对RC522模块的了解,对当前代码做出一定的解释
  * 
  */
 public class RaspRC522{
