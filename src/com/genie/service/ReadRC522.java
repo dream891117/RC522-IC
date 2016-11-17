@@ -6,6 +6,18 @@ import com.genie.util.Convert;
 import com.pi4j.util.Console;
 
 
+/**
+ * 
+ * 
+ * 使用RC522模块读取IC卡内容
+ * 
+ * - 包含卡号和卡内信息
+ * 
+ * @author Genie
+ * 
+ * @version 1.0 (2016.11.17)
+ *
+ */
 public class ReadRC522 {
 
 	final Console console = new Console();
