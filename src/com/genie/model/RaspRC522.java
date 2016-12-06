@@ -15,7 +15,7 @@ import com.pi4j.wiringpi.Spi;
 public class RaspRC522{
 	
 	private int NRSTPD = 22 ;        //RST Pin number , default Pin 22
-    private int Speed = 500000 ;
+    private int Speed = 500000 ;	// times
     private int SPI_Channel = 0 ;
 
     /**
